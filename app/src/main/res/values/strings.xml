@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Health MQTT</string>
+    <string name="privacy_policy">This app reads your local Health Connect data only after you grant permission. It sends selected metrics to the MQTT broker you configure. No data is sent anywhere else by this app.</string>
+</resources>

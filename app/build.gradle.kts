@@ -35,7 +35,7 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     debugImplementation("androidx.compose.ui:ui-tooling")
 
-    implementation("androidx.health.connect:connect-client:1.0.0")
+    implementation("androidx.health.connect:connect-client:1.0.0-alpha11")
     implementation("androidx.work:work-runtime-ktx:2.10.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     implementation("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5")

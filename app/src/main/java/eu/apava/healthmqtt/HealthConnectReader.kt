@@ -14,10 +14,12 @@ class HealthConnectReader(
     private val context: Context
 ) {
     companion object {
-        val permissions = setOf(
+        val requiredPermissions = setOf(
             HealthPermission.getReadPermission(StepsRecord::class)
         )
     }
+
+    val permissions = requiredPermissions
 
     private val client: HealthConnectClient by lazy {
         HealthConnectClient.getOrCreate(context)
